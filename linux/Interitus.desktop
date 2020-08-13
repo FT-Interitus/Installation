@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Interitus
+Comment=A graphical programming interface for beginners and advanceds
+Exec=bash /usr/lib/interitus/run.sh
+Icon=/usr/lib/interitus/interitus.png
+Terminal=False
+GenericName=A graphical programming interface for beginners and advanceds
