@@ -1,1 +1,1 @@
-./java-runtime/bin/java -jar interitus.jar
+/usr/lib/interitus/java-runtime/bin/java -jar interitus.jar
