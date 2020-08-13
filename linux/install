@@ -2,10 +2,10 @@ cd /usr/lib
 mkdir interitus
 cd interitus
 echo -e "${GREEN}Downloading${RED} Interitus"
-wget -q https://github.com/FT-Interitus/Installation/blob/master/linux/desktop-1.0.jar?raw=true
+wget -q https://github.com/FT-Interitus/Installation/blob/master/desktop-1.0.jar?raw=true
 mv desktop-1.0.jar\?raw\=true interitus.jar
 wget -c https://github.com/FT-Interitus/Installation/blob/master/linux/java14.tar.gz?raw=true -O - | tar -xz
-wget -c https://github.com/FT-Interitus/Installation/raw/master/linux/interitus.png
+wget -c https://github.com/FT-Interitus/Installation/raw/master/interitus.png
 wget -c https://raw.githubusercontent.com/FT-Interitus/Installation/master/linux/Interitus.desktop -O /usr/share/applications/Interitus.desktop
 wget -c https://raw.githubusercontent.com/FT-Interitus/Installation/master/linux/run.sh
 chmod +x run.sh
