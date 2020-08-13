@@ -10,6 +10,6 @@ wget -c https://github.com/FT-Interitus/Installation/raw/master/interitus.png
 wget -c https://raw.githubusercontent.com/FT-Interitus/Installation/master/linux/Interitus.desktop -O /usr/share/applications/Interitus.desktop
 wget -c https://raw.githubusercontent.com/FT-Interitus/Installation/master/linux/run.sh
 chmod +x run.sh
-svn export https://github.com/FT-Interitus/Installation/trunk/libs
+svn export https://github.com/FT-Interitus/Installation/trunk/libs --force
 sudo chmod 777 -R /usr/lib/interitus/libs
 ./run.sh
