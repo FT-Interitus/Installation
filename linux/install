@@ -10,4 +10,5 @@ wget -c https://raw.githubusercontent.com/FT-Interitus/Installation/master/linux
 wget -c https://raw.githubusercontent.com/FT-Interitus/Installation/master/linux/run.sh
 chmod +x run.sh
 svn export https://github.com/FT-Interitus/Installation/trunk/libs
+sudo chmod 777 -R /usr/lib/interitus/libs
 ./run.sh
